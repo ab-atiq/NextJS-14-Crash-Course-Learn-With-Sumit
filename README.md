@@ -55,6 +55,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # Poject Structure:
 
+```bash
 NEXT14-CRASH-COURSE-SUMIT/
 │
 ├── app/ # Main app (routes, pages, layouts)
@@ -70,10 +71,12 @@ NEXT14-CRASH-COURSE-SUMIT/
 ├── postcss.config.js # PostCSS config
 ├── tailwind.config.js # Tailwind config
 ├── README.md # Project description
-
+```
 # Do NOT upload (ignore these after package installation):
 
+```bash
 1. .next/ # Auto-generated build files
 2. node_modules/ # Installed packages (very large)
 3. .env # Environment variables (if exists)
 4. .env.local # Local secrets
+```
