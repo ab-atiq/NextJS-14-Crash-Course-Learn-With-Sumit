@@ -2,16 +2,23 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Clone the repository and navigate to the project directory:
+
+```bash
+git clone https://github.com/ab-atiq/NextJS-14-Crash-Course-Learn-With-Sumit.git
+cd NextJS-14-Crash-Course-Learn-With-Sumit
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -34,3 +41,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# 🚀 What You'll Learn:
+
+1. Setting up a Next.js 14 project from scratch
+2. Routing and navigation including nested routing in the latest version
+3. Layout and Nested layouts
+4. Server-side rendering (SSR), static site generation (SSG) and incremental static regeneration (ISR)
+5. Server Components
+6. Data fetching strategies
+7. Optimising performance and improving SEO
+8. Optimising image, font and metadata
