@@ -52,3 +52,28 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 6. Data fetching strategies
 7. Optimising performance and improving SEO
 8. Optimising image, font and metadata
+
+# Poject Structure:
+
+NEXT14-CRASH-COURSE-SUMIT/
+│
+├── app/ # Main app (routes, pages, layouts)
+├── lib/ # Utility functions / helpers
+├── public/ # Static assets (images, icons)
+│
+├── .eslintrc.json # Linting rules
+├── .gitignore # Important (controls what NOT to upload)
+├── jsconfig.json # Path alias config
+├── next.config.js # Next.js config
+├── package.json # Project dependencies + scripts
+├── package-lock.json # Lock file (keep for consistency)
+├── postcss.config.js # PostCSS config
+├── tailwind.config.js # Tailwind config
+├── README.md # Project description
+
+# Do NOT upload (ignore these after package installation):
+
+1. .next/ # Auto-generated build files
+2. node_modules/ # Installed packages (very large)
+3. .env # Environment variables (if exists)
+4. .env.local # Local secrets

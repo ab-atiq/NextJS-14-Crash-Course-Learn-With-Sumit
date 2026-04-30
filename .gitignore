@@ -16,17 +16,20 @@
 # production
 /build
 
-# misc
+# misc or, OS files
 .DS_Store
 *.pem
+Thumbs.db
 
-# debug
+# debug or logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 # local env files
 .env*.local
+.env*
+!.env.example
 
 # vercel
 .vercel
@@ -34,3 +37,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
